@@ -1,10 +1,44 @@
 .image {
   margin-left: 15.97222%;
-  margin-right: 48.95833%;
+  margin-right: 0%;
   margin-top: 10%;
   margin-bottom: 55.625%;
   width: 35.06944%;
   height: 34.375%;
   float: left;
+}
+
+.block {
+  margin-left: 6.59722%;
+  margin-right: 15.97222%;
+  margin-top: 14.16667%;
+  margin-bottom: 39.86111%;
+  width: 26.38889%;
+  height: 11.80556%;
+  float: left;
+  font-family: Roboto;
+  line-height: 150%;
+}
+
+.block .text {
+  text-align: justify;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.block .title {
+  height: 20%;
+  margin-bottom: 2.5%;
+}
+
+.block .title h1 {
+  font-weight: 700;
+  font-size: 42px;
+  margin-top: 0%;
+  line-height: 120%;
+}
+
+.block .button {
+  margin-top: 3.33333%;
 }
 /*# sourceMappingURL=main.css.map */

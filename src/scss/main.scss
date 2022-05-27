@@ -1,9 +1,44 @@
+
+
+@mixin margins ($ml,$mr,$mt,$mb){
+    margin-left: $ml;
+    margin-right: $mr;
+    margin-top: $mt;
+    margin-bottom: $mb;
+}
+
 .image{
-    margin-left: 230/1440*100%;
-    margin-right: 705/1440*100%;
-    margin-top: 96/960*100%;
-    margin-bottom: 534/960*100%;
+    @include margins(230/1440*100%,0% ,96/960*100% ,534/960*100% );
     width: 505/1440*100%;
     height: 330/960*100%;
+    float: left
+}
+
+.block{
+    @include margins(95/1440*100%,230/1440*100% ,136/960*100% ,574/1440*100% );
+    width: 380/1440*100%;
+    height: 170/1440*100%;
     float: left;
+    font-family: Roboto;
+    line-height: 150%;
+    .text{
+        text-align: justify;
+        font-weight: 300;
+        font-size: 16px;
+        
+    }
+    .title{
+        height: 50/250*100%;
+        h1{
+            font-weight: 700;
+            font-size: 42px;
+            margin-top: 0%;
+            line-height: 120%;    
+        }
+        margin-bottom: 24/960*100%;
+        
+    }
+    .button{
+        margin-top: 32/960*100%;
+    }
 }
