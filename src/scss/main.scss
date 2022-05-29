@@ -5,7 +5,8 @@
     margin-right: $mr;
     margin-top: $mt;
 }
-
+.main{
+    width: 1440px;
 .image{
     @include margins(230/1440*100%,0% ,96/1440*100% );
     
@@ -66,6 +67,7 @@
     border: solid;
    
 
+}
 }
 .shadow{
     display: none;
