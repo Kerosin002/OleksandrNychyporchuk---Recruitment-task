@@ -1,44 +1,69 @@
+//body{max-height: 960px;}
 
-
-@mixin margins ($ml,$mr,$mt,$mb){
+@mixin margins ($ml,$mr,$mt){
     margin-left: $ml;
     margin-right: $mr;
     margin-top: $mt;
-    margin-bottom: $mb;
 }
 
 .image{
-    @include margins(230/1440*100%,0% ,96/960*100% ,534/960*100% );
+    @include margins(230/1440*100%,0% ,96/1440*100% );
+    
     width: 505/1440*100%;
-    height: 330/960*100%;
+    height: 330/1440*100%;
     float: left
+    
 }
 
 .block{
-    @include margins(95/1440*100%,230/1440*100% ,136/960*100% ,574/1440*100% );
+    @include margins(95/1440*100%, 230/1440*100%, 136/1440*100%);
+    
     width: 380/1440*100%;
-    height: 170/1440*100%;
+    
     float: left;
     font-family: Roboto;
-    line-height: 150%;
-    .text{
+    
+    p{
         text-align: justify;
         font-weight: 300;
         font-size: 16px;
+        margin-top: 0%;
+        line-height: 150%;
+        margin-bottom:32/380*100%;
+        
         
     }
-    .title{
-        height: 50/250*100%;
-        h1{
-            font-weight: 700;
-            font-size: 42px;
-            margin-top: 0%;
-            line-height: 120%;    
-        }
-        margin-bottom: 24/960*100%;
         
+    h1{
+        font-weight: 700;
+        font-size: 42px;
+        margin-top: 0%;
+        line-height: 120%;    
     }
-    .button{
-        margin-top: 32/960*100%;
-    }
+    margin-bottom: 0%;
+    max-height: 250/1440*100%;
+        
+    
+}
+.button{
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 40/380*100%;
+    
+    padding-right: 40/380*100%;
+    padding-top: 16/380*100%;
+    padding-bottom: 16/380*100%;
+    border-radius: 32px;
+    //width: 128/1440*100%;
+    height: 48/1440*100%;
+    //margin-left: 95/1440*100%;
+    
+    float: left;
+    //margin-right: 482/1440*100%;
+    background-color: #e4c1ae;
+    color: white;
+//        border-color: #e4c1ae;
+    border: solid;
+   
+
 }
