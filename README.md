@@ -1,3 +1,6 @@
+# Informacja od zdającego
+Script strony zawiera funkcje tworzenia ciasteczek. Na wykorzystaniu ciasteczek polega główna funkcjonalność strony.
+
 # Zadanie rekrutacyjne GravityGlobal na frontend developera
 
 ## Informacje wstępne
