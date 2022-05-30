@@ -141,8 +141,7 @@
         top: 60%;
         margin-right:40/1400*100% ;
         margin-top: -10/960*100%;
-        font-size: 16px;
-        font-size: 16px;
+        font-size: 16/1440*100vw;
         font-weight: 700;
         padding-left: 10/920*100%;
     
@@ -162,11 +161,11 @@
             font-size: 10/1440*100vw;
             
             overflow: auto;
-            border: solid 1px black;
+            border: solid 0.1vw black;
             
             border-collapse: collapse;
             td{
-                border:solid 1px black ;
+                border:solid 0.1vw black ;
                 
             }
 

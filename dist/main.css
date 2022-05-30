@@ -121,8 +121,7 @@
   top: 60%;
   margin-right: 2.85714%;
   margin-top: -1.04167%;
-  font-size: 16px;
-  font-size: 16px;
+  font-size: 1.11111vw;
   font-weight: 700;
   padding-left: 1.08696%;
   padding-right: 1.08696%;
@@ -143,11 +142,11 @@
   display: block;
   font-size: 0.69444vw;
   overflow: auto;
-  border: solid 1px black;
+  border: solid 0.1vw black;
   border-collapse: collapse;
 }
 
 .popup .tab table td {
-  border: solid 1px black;
+  border: solid 0.1vw black;
 }
 /*# sourceMappingURL=main.css.map */
