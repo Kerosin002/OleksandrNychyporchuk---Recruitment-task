@@ -28,8 +28,18 @@
     <div class="allpoptext"><h1>Alert!</h1>
    
     <div class="pop_text">You have clicked <span><span id="count">0</span> times</span> to related button</div></div>
+    <div class="d-flex justify-content-center">
+        <div class="spinner-border" 
+             role="status" id="loading">
+            <span class="sr-only">Loading...</span>
+        </div>
     <button class="reset" id="reset" onclick="reset(),close_popup() ">reset</button>
+    <div class="tab">
+        <!-- table for showing data -->
+        <table id="employees"></table>
+    </div>
 </div>
 
+</div>
     
 </body>

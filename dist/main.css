@@ -93,7 +93,7 @@
 }
 
 .popup .allpoptext .pop_text {
-  font-size: 16px;
+  font-size: 1.11111vw;
   font-weight: 300;
   margin-bottom: 0%;
   margin-top: 2.6087%;
@@ -104,9 +104,10 @@
 }
 
 .popup .allpoptext h1 {
-  font-size: 42px;
+  font-size: 2.91667vw;
   font-weight: 700;
   margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 .popup .reset {
@@ -127,5 +128,26 @@
   padding-right: 1.08696%;
   padding-top: 1.90476%;
   padding-bottom: 1.90476%;
+}
+
+.popup .tab {
+  position: absolute;
+  left: 45%;
+  top: 10%;
+  height: 47.61905%;
+  max-width: 43.47826%;
+  overflow: auto;
+}
+
+.popup .tab table {
+  display: block;
+  font-size: 0.69444vw;
+  overflow: auto;
+  border: solid 1px black;
+  border-collapse: collapse;
+}
+
+.popup .tab table td {
+  border: solid 1px black;
 }
 /*# sourceMappingURL=main.css.map */
